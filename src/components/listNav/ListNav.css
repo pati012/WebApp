@@ -1,0 +1,14 @@
+
+
+
+.item-nav{
+    font-size: 1.25rem;
+    padding: 1rem 0rem;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 0.9375rem;
+    cursor: pointer;
+  }
+  
+  .item-nav:last-child{
+    margin-bottom: 0rem;
+  }

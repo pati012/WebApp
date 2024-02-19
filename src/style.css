@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "arial";
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* The colors for website */
+
+:root {
+  --main-color: #ff420e;
+  --seafoam-green: #80bd9e;
+  --coral: #f98866;
+  --lime-green: #89da59;
+}
+
+.App {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: rgba(240, 132, 99, 0.5);
+}
+
+.app__container {
+  max-width: 77.5rem;
+  width: 100%;
+  padding: 0rem 1.25rem;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "header header" "main sidebar" "footer footer";
+}
+
+.page {
+  grid-area: main;
+  max-width: 51.875rem;
+  width: 100%;
+  background-color: #0000;
+}

@@ -1,0 +1,37 @@
+
+
+header {
+  margin-bottom: 3.125rem;
+  grid-area: header;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5rem;
+  padding: 0rem 1.25rem;
+  font-size: 1.312rem;
+}
+
+.header__top a {
+  color: #fff;
+}
+
+.header__lists {
+  display: flex;
+}
+
+.header__item {
+  padding: 1.25rem;
+  margin-right: 5px;
+}
+
+.header__item:last-child {
+  margin-right: 0px;
+}
+
+.header__btn{
+   background-color: var(--lime-green) !important;
+   width: 25%;
+}
